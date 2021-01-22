@@ -1,9 +1,13 @@
-site_name: ID Technical Documentation
+site_name: SWITCH edu-ID@unibe.ch
 
 # Configuration
 site_dir: site
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: pink
+    accent: cyan
 extra_css:
  - 'stylesheets/unibe.css'
 use_directory_urls: false
@@ -11,8 +15,8 @@ use_directory_urls: false
 # Copyright footer
 copyright: 'Copyright &copy; University of Bern, IT Service Office'
 # Social links at botoom right
-repo_name: 'id-unibe-ch/id.docs'
-repo_url: 'https://github.com/id-unibe-ch/id.docs'
+repo_name: 'id-docs-public/id-docs-eduid'
+repo_url: 'https://dev.azure.com/unibe-id/id-docs-public/_git/id-docs-eduid'
 edit_uri: ''
 
 # See https://python-markdown.github.io/extensions/ and
@@ -34,3 +38,11 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Linking Prozess:
+    - AAI-API: linking/aai-api.md
+  - Service Providers:
+    - Anmeldeprozess: service-provider/login-process.md
+    - Hybride Anmeldung: service-provider/hybrid-login.md
+  - Staging Server:
+    - Funktionsweise: staging-server/how-it-works.md
+    - Verwendung: staging-server/how-to-use.md
