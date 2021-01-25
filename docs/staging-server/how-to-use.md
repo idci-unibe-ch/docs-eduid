@@ -1,10 +1,12 @@
 ## Verwendung des Staging Servers
 
 ### Voraussetzungen
-* Der Campus Account wurde mit der edu-ID verlinkt.
-* Sie haben uns die Tester an aai@id.unibe.ch gemeldet und eine Bestätigung von uns erhalten.
+
+- Der Campus Account wurde mit der edu-ID verlinkt.
+- Sie haben uns die Tester an aai@id.unibe.ch gemeldet und eine Bestätigung von uns erhalten.
 
 ### Vorgehen
+
 1. Trennen Sie eine eventuell aufgebaute VPN-Verbindung.
 2. Erstellen Sie in Ihrem Forticlient VPN ein neues "SSL VPN" Profil mit folgenden Einstellungen:
 ![VPN Profil Android](./img/vpn_profile_android.png)
@@ -19,8 +21,9 @@ Sollten Sie mehrere Affiliations[^2] mit Ihrer edu-ID verknüpft haben, wird Ihn
 8. Anschliessend werden Sie zum Service Provider zurückgeführt.
 
 ### Prüfen
-* War die Anmeldung am gewünschten erfolgreich.
-* Hat der Service Provider über den Staging Server dieselben Attribute erhalten wie früher über den aai-idp.
+
+- War die Anmeldung am gewünschten erfolgreich.
+- Hat der Service Provider über den Staging Server dieselben Attribute erhalten wie früher über den aai-idp.
 
 
 [^1]:

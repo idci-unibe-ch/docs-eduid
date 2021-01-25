@@ -5,13 +5,13 @@ Diese Anleitung richtet sich an SWITCHaai[^1] Service Provider (SP)[^2] Administ
 ## Linking
 Voraussetzung für die Nutzung der SWITCH edu-ID[^3] an der UniBE ist eine Verlinkung des Campus Accounts mit einer vorhandenen oder neu zu erstellenden SWITCH edu-ID.
 
-* [Technische Details zum Linking-Process](./linking/aai-api.md)
+- [Technische Details zum Linking-Process](./linking/aai-api.md)
 
 ## Staging Server
 Um zu simulieren wie sich Ihr Service Provider nach der Umstellung auf die SWITCH edu-ID verhält, stellen wir Ihnen einen sogenannten Staging Server[^4] zur Verfügung.
 
-* [Funktionsweise des Staging Server](./staging-server/how-it-works.md)
-* [Verwendung des Staging Servers](./staging-server/how-to-use.md)
+- [Funktionsweise des Staging Server](./staging-server/how-it-works.md)
+- [Verwendung des Staging Servers](./staging-server/how-to-use.md)
 
 ## Anpassung der Service Provider
 Im Normalfall müssen Sie für den Wechsel auf die SWITCH edu-ID keine Anpassungen an Ihrem Service Provider vornehmen.

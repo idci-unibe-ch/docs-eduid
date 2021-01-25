@@ -4,7 +4,7 @@ Der edu-ID Staging Server simuliert das Verhalten nach der Umschaltung von SWITC
 
 Der Staging Server gibt sich dabei als aai-idp aus, indem er dieselben Datenbanken und Zertifikate nutzt.
 
-Um Ihnen das Testing soweit als möglich zu erleichtern, haben wir einen Load Balancer basierten Ansatz realisiert.
+Um Ihnen das Testing soweit als möglich zu erleichtern, haben wir einen Load Balancer basierten Ansatz realisiert.  
 Dies gibt Ihnen zwei Möglichkeiten die Anmeldung mit der edu-ID an Ihrer Dienstleistung zu testen.
 
 **Anmeldeprozess ohne Staging Server**
@@ -19,14 +19,14 @@ Hierbei leiten wir alle Clients in einem definierten Subnetz an den Staging Serv
 
 **Vorteil:**
 
-* Es sind keine Client-Anpassungen und Installationen notwendig.
+- Es sind keine Client-Anpassungen und Installationen notwendig.
 
 **Nachteile:**
 
-* Alle Clients Ihres Instituts oder Ihrer Abteilung müssen sich im selben Subnetz befinden und das Subnetz muss exklusiv für Sie reserviert sein.
-* Nicht sonderlich flexibel.
+- Alle Clients Ihres Instituts oder Ihrer Abteilung müssen sich im selben Subnetz befinden und das Subnetz muss exklusiv für Sie reserviert sein.
+- Nicht sonderlich flexibel.
 Es ist nach der Einrichtung nicht möglich zwischen der edu-ID und SWITCHaai Anmeldung zu wechseln.
-* Für Studierende nicht möglich.
+- Für Studierende nicht möglich.
 
 ### VPN Testing (empfohlen)
 Bei dieser Methode melden Sie uns die Personen oder Gruppen, welche das Testing durchführen werden.
@@ -38,14 +38,14 @@ Diese Personen können sich anschliessend mit einem speziellen VPN Profil verbin
 
 **Vorteile:**
 
-* Sehr flexible Lösung.
+- Sehr flexible Lösung.
 Bei aktivierter VPN Verbindung werden Sie auf den Staging Server umgeleitet, bei deaktivierter VPN Verbindung oder einem anderen Profil gelangen Sie wieder zur SWITCHaai Anmeldung.
-* Die Lösung steht sowohl auf Desktop-Clients als auch Smartphones und Tablets zu Verfügung.
-* Studierende können an den Tests teilnehmen.
+- Die Lösung steht sowohl auf Desktop-Clients als auch Smartphones und Tablets zu Verfügung.
+- Studierende können an den Tests teilnehmen.
 
 **Nachteil:**
 
-* Es muss eine neue VPN-Verbindung eingerichtet und für die Tests verwendet werden.
+- Es muss eine neue VPN-Verbindung eingerichtet und für die Tests verwendet werden.
 
 
 ## Technische Details
@@ -69,8 +69,7 @@ upstream aai_idp  {
 }
 ```
 
-Wenn Sie also aai-idp.unibe.ch ansteuern gelangen Sie effektiv auf den Load Balancer, auf welchem sich auch das TLS Zertifikat befindet welches in Ihrem Browser angezeigt wird.
-
+Wenn Sie also aai-idp.unibe.ch ansteuern gelangen Sie effektiv auf den Load Balancer, auf welchem sich auch das TLS Zertifikat befindet welches in Ihrem Browser angezeigt wird.  
 Die TLS Verbindung wird an diesem Punkt terminiert. Die Kommunikation vom Load Balancer zu den beiden Backend Server findet mit einem anderen Zertifikat statt.
 
 
@@ -116,7 +115,7 @@ geo $remote_addr $aai_idp_backend {
 
 Standardmässig werden hierdurch alle Clients an den SWITCHaai IdP gesendet, ausser das Subnetz entspricht einem der definierten Bereiche, dann gelangt man auf den edu-ID Staging Server.
 
-Damit wir nun nicht jede IP einzeln erfassen müssen nutzen wir den Umstand, dass wir bei Fortinet VPN ein NATting machen.
+Damit wir nun nicht jede IP einzeln erfassen müssen nutzen wir den Umstand, dass wir bei Fortinet VPN ein NATting machen.  
 Die Nutzenden erhalten also eine IP aus einem privaten Adressbereich, aber nach aussen hin verwenden sie alle dieselbe öffentliche IP Adresse.
 
 ![VPN NATting](./img/lb_details_nat.png)
