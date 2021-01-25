@@ -40,6 +40,7 @@ nav:
   - Home: index.md
   - Linking Prozess:
     - AAI-API: linking/aai-api.md
+    - OneIM-API: linking/oneim-api.md
   - Service Providers:
     - Anmeldeprozess: service-provider/login-process.md
     - Hybride Anmeldung: service-provider/hybrid-login.md
