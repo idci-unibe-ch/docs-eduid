@@ -22,7 +22,7 @@ Sollten Sie mehrere Affiliations[^2] mit Ihrer edu-ID verknüpft haben, wird Ihn
 
 ### Prüfen
 
-- War die Anmeldung am gewünschten erfolgreich.
+- War die Anmeldung an der gewünschten Dienstleistung erfolgreich.
 - Hat der Service Provider über den Staging Server dieselben Attribute erhalten wie früher über den aai-idp.
 
 
