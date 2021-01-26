@@ -1,6 +1,28 @@
 # Technische Dokumentation der SWITCH edu-ID
 
-Diese Anleitung richtet sich an SWITCHaai[^1] Service Provider (SP)[^2] Administratoren.
+Diese Dokumentation richtet sich an SWITCHaai[^1] Service Provider (SP)[^2] Administratoren.
+
+## Projektstatus
+
+- [x] Projektteam gebildet
+- [ ] Releasedatum definiert
+- [ ] Kommunikation
+    * [x] Informationsveranstaltung für SP Administartoren
+    * [x] Technische Dokumentation für SP Administratoren
+    * [ ] Handouts erstellt
+    * [ ] Handouts verteilt
+    * [ ] Studierende informiert
+    * [ ] Mitarbeitende informiert
+- [ ] Umsetzung
+    * [x] Linking Service aufgebaut
+    * [ ] Linking Service optimiert
+    * [x] Sync Service aufgebaut
+    * [x] SLSP, Swisscovery an edu-ID angebunden: 01.12.2020
+    * [x] Staging Server bereitgestellt: 25.01.2020
+    * [ ] AAI-Schnittstelle durch OneIM-Schnittstelle abgelöst
+    * [ ] Liveschaltung der edu-ID
+- [ ] Abschliessende Aufgaben
+    * [ ] Abbau des lokalen AAI-IdP Clusters
 
 ## Linking
 Voraussetzung für die Nutzung der SWITCH edu-ID[^3] an der UniBE ist eine Verlinkung des Campus Accounts mit einer vorhandenen oder neu zu erstellenden SWITCH edu-ID.
