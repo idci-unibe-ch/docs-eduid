@@ -1,4 +1,4 @@
-## Funktionsweise des Staging Servers
+# Funktionsweise des Staging Servers
 
 Der edu-ID Staging Server simuliert das Verhalten nach der Umschaltung von SWITCHaai auf die SWITCH edu-ID an der Universität Bern.
 
@@ -11,7 +11,7 @@ Dies gibt Ihnen zwei Möglichkeiten die Anmeldung mit der edu-ID an Ihrer Dienst
 ![Klassischer Routing Prozess](./img/routing_classic.png)
 
 
-### Subnetz Testing
+## Subnetz Testing
 Hierbei leiten wir alle Clients in einem definierten Subnetz an den Staging Server weiter.
 
 **Anmeldeprozess mit Subnet-Matching**
@@ -28,7 +28,7 @@ Hierbei leiten wir alle Clients in einem definierten Subnetz an den Staging Serv
 Es ist nach der Einrichtung nicht möglich zwischen der edu-ID und SWITCHaai Anmeldung zu wechseln.
 - Für Studierende nicht möglich.
 
-### VPN Testing (empfohlen)
+## VPN Testing (empfohlen)
 Bei dieser Methode melden Sie uns die Personen oder Gruppen, welche das Testing durchführen werden.
 
 Diese Personen können sich anschliessend mit einem speziellen VPN Profil verbinden und wodurch der Client an den Staging Server weitergeleitet wird.
@@ -48,7 +48,7 @@ Bei aktivierter VPN Verbindung werden Sie auf den Staging Server umgeleitet, bei
 - Es muss eine neue VPN-Verbindung eingerichtet und für die Tests verwendet werden.
 
 
-## Technische Details
+# Technische Details
 Unser Identity Provider ist wie folgt aufgebaut:
 ![Load Balancer Aufbau](./img/lb_details_build.png)
 
