@@ -8,6 +8,7 @@ Diese Dokumentation richtet sich an SWITCHaai[^1] Service Provider (SP)[^2] Admi
 - [ ] Releasedatum definiert
 - [ ] Kommunikation
     * [x] Informationsveranstaltung für SP Administartoren
+    * [x] Öffentliche Webseite für Nutzende
     * [x] Technische Dokumentation für SP Administratoren
     * [ ] Handouts erstellt
     * [ ] Handouts verteilt
