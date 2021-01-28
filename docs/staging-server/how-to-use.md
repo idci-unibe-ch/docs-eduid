@@ -8,12 +8,15 @@
 ## Vorgehen
 
 1. Trennen Sie eine eventuell aufgebaute VPN-Verbindung.
-2. Erstellen Sie in Ihrem Forticlient VPN ein neues "SSL VPN" Profil mit folgenden Einstellungen:
-![VPN Profil Android](./img/vpn_profile_android.png)
+2. Erstellen Sie in Ihrem Forticlient VPN ein neues "SSL VPN" Profil mit folgenden Einstellungen:  
+**Android**  
+![VPN Profil Android](./img/vpn_profile_android.png)  
+**Windows App**  
+![VPN Profil Windows](./img/vpn_profile_win.png)  
 3. Verbinden Sie sich mit dem neu erstellten Profil unter Verwendung Ihres Campus Accounts.
 4. Öffnen Sie einen Incognito Browser und navigieren Sie auf die gewünschte Seite.
 5. Wählen Sie auf der SWITCH WAYF[^1] Seite wie gewohnt die ***Universität Bern*** als HomeOrg aus.
-![VPN Profil Android](./img/aai_wayf.png)
+![SWITCH WAYF](./img/aai_wayf.png)
 6. Sie werden nun für die Anmeldung auf den Staging Server umgeleitet.
 7. Melden Sie sich mit Ihrer SWITCH edu-ID an.
 Sollten Sie mehrere Affiliations[^2] mit Ihrer edu-ID verknüpft haben, wird Ihnen der Affiliation Chooser angezeigt in welchem Sie die gewünschte Rolle auswählen können.
