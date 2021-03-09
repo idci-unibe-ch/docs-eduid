@@ -5,18 +5,18 @@ Diese Dokumentation richtet sich an SWITCHaai[^1] Service Provider (SP)[^2] Admi
 ## Projektstatus
 
 - [x] Projektteam gebildet
-- [ ] Releasedatum definiert
+- [x] Releasedatum definiert: 15.04.2021
 - [ ] Kommunikation
-    * [x] Informationsveranstaltung für SP Administartoren
+    * [x] Informationsveranstaltung für SP Administratoren
     * [x] Öffentliche Webseite für Nutzende
     * [x] Technische Dokumentation für SP Administratoren
-    * [ ] Handouts erstellt
+    * [x] Handouts erstellt
     * [ ] Handouts verteilt
     * [ ] Studierende informiert
     * [ ] Mitarbeitende informiert
 - [ ] Umsetzung
     * [x] Linking Service aufgebaut
-    * [ ] Linking Service optimiert
+    * [x] Linking Service optimiert
     * [x] Sync Service aufgebaut
     * [x] SLSP, Swisscovery an edu-ID angebunden: 01.12.2020
     * [x] Staging Server bereitgestellt: 25.01.2020
