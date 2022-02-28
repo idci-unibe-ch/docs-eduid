@@ -1,4 +1,4 @@
-# UniBE SWITCH edu-ID project documentation
+# UniBE SWITCH edu-ID project documentation - TRIGGER TEST
 
 In this repository the offical technical user documentation for the SWITCH edu-ID is managed.
 
